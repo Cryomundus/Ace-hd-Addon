@@ -1,0 +1,53 @@
+Sprite "PI2FA0", 320, 168
+{
+	Offset 0, -5
+	Patch "PISFA0", 0, 0
+	{
+		FlipX
+	}
+}
+
+Sprite "PI2GA0", 320, 168
+{
+	Offset 0, -8
+	Patch "PISGA0", 0, 0
+	{
+		FlipX
+	}
+}
+
+Sprite "PI2GB0", 320, 168
+{
+	Offset 0, -9
+	Patch "PISGB0", 0, 0
+	{
+		FlipX
+	}
+}
+
+Sprite "PI2GC0", 320, 168
+{
+	Offset 2, -13
+	Patch "PISGC0", 0, 0
+	{
+		FlipX
+	}
+}
+
+Sprite "PI2GD0", 320, 168
+{
+	Offset -1, -2
+	Patch "PISGD0", 0, 0
+	{
+		FlipX
+	}
+}
+
+Sprite "PI2GE0", 320, 168
+{
+	Offset 0, -14
+	Patch "PISGE0", 0, 0
+	{
+		FlipX
+	}
+}

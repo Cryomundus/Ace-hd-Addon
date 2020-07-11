@@ -1,0 +1,179 @@
+const HDLD_50OMG = "omg";
+const HDLD_50OMGMAG = "g10";
+
+const ENC_50OMGMAG_EMPTY = 18;
+const ENC_50OMG = 3.3;
+const ENC_50OMG_LOADED = 2.5;
+const ENC_50OMGMAG_LOADED = 14;
+
+class HDB_50OMG : HDBulletActor
+{
+	default
+	{
+		pushfactor 0.05;
+		mass 460;
+		speed 1028;
+		accuracy 600;
+		stamina 1270;
+		woundhealth 2;
+		hdbulletactor.hardness 4;
+		hdbulletactor.distantsound "world/riflefar";
+	}
+	
+	override void HitGeometry(line hitline, sector hitsector, int hitside, int hitpart, vector3 vu, double lastdist)
+	{
+		A_SprayDecal(speed > 400 ? "BulletChipLarge" : "BulletChip", 4);
+		super.HitGeometry(hitline, hitsector, hitside, hitpart, vu, lastdist);
+		angle -= 180;
+		A_SprayDecal(speed > 400 ? "BulletChipLarge" : "BulletChip", 4);
+		angle += 180;
+	}
+}
+
+class HD50OMGAmmo : HDRoundAmmo
+{
+	default
+	{
+		+forcexybillboard 
+		+cannotpush
+		+inventory.ignoreskill
+		+hdpickup.multipickup
+		xscale 0.7;
+		yscale 0.8;
+		inventory.pickupmessage "Picked up a .50 OMG round.";
+		hdpickup.refid HDLD_50OMG;
+		tag ".50 OMG round";
+		hdpickup.bulk ENC_50OMG;
+		inventory.icon "OG10A0";
+	}
+	override void SplitPickup(){
+		SplitPickupBoxableRound(10,20,"HD50OMGBoxPickup","OG10A0","OGBLA0");
+		if(amount==10)scale.y=(0.8*0.83);
+		else scale.y=0.8;
+	}
+	override void GetItemsThatUseThis(){
+		itemsthatusethis.push("ZM69Rifle");
+	}
+	states{
+	spawn:
+		OGBL A -1;
+		OG10 A -1;
+	}
+}
+
+class HDSpent50OMG : HDActor
+{
+	override void postbeginplay()
+	{
+		super.postbeginplay();
+		A_ChangeVelocity(frandom(-1,1),frandom(-0.4,0.4),0,CVF_RELATIVE);
+	}
+	
+	default{
+		+missile
+		height 4;radius 2;
+		bouncetype "doom";
+
+		bouncesound "misc/casing";
+		xscale 0.7;yscale 0.8;
+		maxstepheight 0.6;
+		bouncefactor 0.5;
+	}
+	states{
+	spawn:
+		OGBS A 2{
+			angle += 45;
+			if(floorz==pos.z&&!vel.z)A_Countdown();
+		}wait;
+	death:
+		OGBS A -1;
+		stop;
+	}
+}
+
+class HDLoose50OMG : HDUPK
+{
+	default{
+		+missile
+		+hdupk.multipickup
+		height 4;radius 2;
+		bouncetype "doom";
+
+		bouncesound "misc/casing";
+		xscale 0.7;yscale 0.8;
+		maxstepheight 0.6;
+		bouncefactor 0.6;
+		hdupk.pickuptype "HD50OMGAmmo";
+		hdupk.pickupmessage "Picked up a .50 OMG round.";
+	}
+	states{
+	spawn:
+		OGBL A 2{
+			angle+=45;
+			if(floorz==pos.z&&!vel.z)A_Countdown();
+		}wait;
+	death:
+		---- A 1{
+			actor a=spawn("HD50OMGAmmo",pos,ALLOW_REPLACE);
+			a.angle=self.angle;a.vel=self.vel;
+			destroy();
+		}stop;
+	}
+}
+
+
+
+class HD50OMGBoxPickup:HDUPK{
+	default{
+		//$Category "Ammo/Hideous Destructor/"
+		//$Title "Box of .50 OMG"
+		//$Sprite "OGBXA0"
+
+		scale 0.4;
+		hdupk.amount 20;
+		hdupk.pickupsound "weapons/pocket";
+		hdupk.pickupmessage "Picked up some .50 OMG ammo.";
+		hdupk.pickuptype "HD50OMGAmmo";
+	}
+	states{
+	spawn:
+		OGBX A -1;
+	}
+}
+
+class HD50OMGMag : HDMagAmmo
+{
+	default
+	{
+		//$Category "Ammo/Hideous Destructor/"
+		//$Title ".50 OMG Magazine"
+		//$Sprite "OM10A0"
+
+		hdmagammo.maxperunit 10;
+		hdmagammo.roundtype "HD50OMGAmmo";
+		hdmagammo.roundbulk ENC_50OMG_LOADED;
+		hdmagammo.magbulk ENC_50OMGMAG_EMPTY;
+		hdpickup.refid HDLD_50OMGMAG;
+		tag ".50 OMG magazine";
+		inventory.pickupmessage "Picked up a .50 OMG magazine.";
+		scale 0.8;
+	}
+	override string,string,name,double getmagsprite(int thismagamt)
+	{
+		string magsprite=(thismagamt>0)?"OM10A0":"OM10B0";
+		return magsprite,"OGBLA3A7","HD50OMGAmmo",1.7;
+	}
+	override void GetItemsThatUseThis(){
+		itemsthatusethis.push("ZM69Rifle");
+	}
+	states{
+	spawn:
+		OM10 A -1;
+		stop;
+	spawnempty:
+		OM10 B -1{
+			brollsprite=true;brollcenter=true;
+			roll=randompick(0,0,0,0,2,2,2,2,1,3)*90;
+		}stop;
+	}
+}

@@ -1,0 +1,174 @@
+Weapons/DeinoBlast1		REVFIRE
+Weapons/Vulcanette		VULCFIRE
+Weapons/SMG				SMGFIRE
+Weapons/ZM69Fire 		DSZ69FIR
+
+// Misc.
+
+$random Weapons/Pocket { Weapons/Pocket1 Weapons/Pocket2 }
+Weapons/Pocket1 PPOCKET1
+Weapons/Pocket2 PPOCKET2
+
+// Pistol.
+Weapons/Pistol			PISTFIRE
+Weapons/PisMagClick		PISTMAGO
+Weapons/PistolDry		PISTEMPT
+Weapons/PisChamber1		PISTMAGI
+Weapons/PisChamber2		PISTSLID
+
+// SMG.
+Weapons/SMGChamber		SMGCHMBR
+Weapons/SMGMagClick		SMGCLICK
+Weapons/SMGMagMove		SMGLOAD
+
+// Hunter.
+Weapons/Hunter1			SHTFIRE1
+Weapons/Hunter2			SHTFIRE2
+Weapons/Hunter3			SHTFIRE3
+Weapons/Hunter4			SHTFIRE4
+$random Weapons/Hunter { Weapons/Hunter1 Weapons/Hunter2 Weapons/Hunter3 Weapons/Hunter4 }
+
+// Slayer.
+$alias Weapons/SlayerSingle	Weapons/Hunter
+Weapons/sshoto			DOUBOPEN
+$random Weapons/sshotl	{ Misc/DoubleRel1 Misc/DoubleRel2 Misc/DoubleRel3 }
+Misc/DoubleRel1 		DOUBLOD1
+Misc/DoubleRel2 		DOUBLOD2
+Misc/DoubleRel3 		DOUBLOD3
+Weapons/sshotc			DOUBCLOS
+
+// ZM66.
+Weapons/RifleLoad		ZM66LOAD
+Weapons/RifChamber		ZM66CHAM
+
+// Grenade Launcher.
+Weapons/GrenadeShot		GRENFIRE
+
+// Rocket Launcher
+Weapons/RockIgnite		RLNCFIRE
+Weapons/RockLaunch		ROCKTFLY
+Weapons/RockReload		RLNCRELD
+Weapons/RockBoom		ROCKBOOM
+Weapons/RockOpen		ROCKOPN1
+Weapons/RockOpen2		ROCKCLOS
+Weapons/RockChamber		ROCKCHAM
+
+// Thunder Buster
+Weapons/PlasIdle		PLASIDLE
+Weapons/PlasmaS			PLASEMPT
+Weapons/PlasCrack		PLSFIRE1
+Weapons/PlasmaF			PLSFIRE2
+Weapons/PlasSwitch		PLASCHNG
+Weapons/PlasOpen		PLASOPEN
+Weapons/PlasLoad		PLASLOAD
+Weapons/PlasClose2		PLASCLS2
+
+// Liberator
+Weapons/BigRifle		LIBRFIRE
+Weapons/LibChamber		LIBRCHM1
+Weapons/LibChamber2		LIBRCHM2
+Weapons/LibChamber2a	LIBRCHM2
+
+// Brontornis
+Weapons/Bronto			BRONFIRE
+Weapons/BrontUnload		BRONUNLD
+Weapons/BrontoLoad		BRONLOAD
+Weapons/BrontoClose		BRONCLOS
+
+// Reloader
+RoundMaker/Chug1		LBRCHUG1
+RoundMaker/Chug2		LBRCHUG2
+RoundMaker/Pop			LIBRTPOP
+
+// Frag grenade
+Weapons/FragPinOut		FRAGPULL
+Weapons/FragSpoonOff	FRAGSPON
+
+$random Misc/FragKnock { Misc/FragBounce1 Misc/FragBounce2 Misc/FragBounce3 Misc/FragBounce4 }
+Misc/FragBounce1 FRAGBNC1
+Misc/FragBounce2 FRAGBNC2
+Misc/FragBounce3 FRAGBNC3
+Misc/FragBounce4 FRAGBNC4
+
+$random Misc/FragRoll { Misc/FragRoll1 Misc/FragRoll2 Misc/FragRoll3 Misc/FragRoll4 }
+Misc/FragRoll1 FRAGROL1
+Misc/FragRoll2 FRAGROL2
+Misc/FragRoll3 FRAGROL3
+Misc/FragRoll4 FRAGROL4
+
+$random Tripwire/GumSplat { Tripwire/GumSplat1 Tripwire/GumSplat2 Tripwire/GumSplat3 Tripwire/GumSplat4 Tripwire/GumSplat5 Tripwire/GumSplat6 Tripwire/GumSplat7 Tripwire/GumSplat8 Tripwire/GumSplat9 }
+Tripwire/GumSplat1 FRAGSTK1
+Tripwire/GumSplat2 FRAGSTK2
+Tripwire/GumSplat3 FRAGSTK3
+Tripwire/GumSplat4 FRAGSTK4
+Tripwire/GumSplat5 FRAGSTK5
+Tripwire/GumSplat6 FRAGSTK6
+Tripwire/GumSplat7 FRAGSTK7
+Tripwire/GumSplat8 FRAGSTK8
+Tripwire/GumSplat9 FRAGSTK9
+
+Tripwire/Break		TRIPTEAR
+Tripwire/FragPain	FRAGPULL
+$random Tripwire/FragClick { Misc/FragBounce1 Misc/FragBounce2 Misc/FragBounce3 Misc/FragBounce4 }
+
+// Casings.
+$random Misc/Casing { Misc/RifleCasing1 Misc/RifleCasing2 Misc/RifleCasing3 Misc/RifleCasing4 }
+Misc/RifleCasing1 RIFSHEL1
+Misc/RifleCasing2 RIFSHEL2
+Misc/RifleCasing3 RIFSHEL3
+Misc/RifleCasing4 RIFSHEL4
+
+$random Misc/Casing2 { Misc/ShotgunShell1 Misc/ShotgunShell2 Misc/ShotgunShell3 Misc/ShotgunShell4 Misc/ShotgunShell5 Misc/ShotgunShell6 }
+Misc/ShotgunShell1 SHTGSHL1
+Misc/ShotgunShell2 SHTGSHL2
+Misc/ShotgunShell3 SHTGSHL3
+Misc/ShotgunShell4 SHTGSHL4
+Misc/ShotgunShell5 SHTGSHL5
+Misc/ShotgunShell6 SHTGSHL6
+
+$random Misc/Casing3 { Misc/9mmCasing1 Misc/9mmCasing2 Misc/9mmCasing3 Misc/9mmCasing4 Misc/9mmCasing5 Misc/9mmCasing6 }
+Misc/9mmCasing1 9MMSHEL1
+Misc/9mmCasing2 9MMSHEL2
+Misc/9mmCasing3 9MMSHEL3
+Misc/9mmCasing4 9MMSHEL4
+Misc/9mmCasing5 9MMSHEL5
+Misc/9mmCasing6 9MMSHEL6
+
+$random Misc/Casing4 { Misc/BrontoCasing1 Misc/BrontoCasing2 Misc/BrontoCasing3 Misc/BrontoCasing4 }
+Misc/BrontoCasing1 BRNTCSG1
+Misc/BrontoCasing2 BRNTCSG2
+Misc/BrontoCasing3 BRNTCSG3
+Misc/BrontoCasing4 BRNTCSG4
+
+// Explosions.
+$random World/Explode { Misc/explode1 Misc/explode2 Misc/explode3 }
+Misc/Explode1 EXPLODE1
+Misc/Explode2 EXPLODE2
+Misc/Explode3 EXPLODE3
+
+$random World/RocketFar	{ Misc/DistantExplode1 Misc/DistantExplode2 Misc/DistantExplode3 }
+Misc/DistantExplode1 EXPLDIS1
+Misc/DistantExplode2 EXPLDIS2
+Misc/DistantExplode3 EXPLDIS3
+
+// Impacts.
+$random Misc/BulletHit { Misc/Concretehit1 Misc/Concretehit2 Misc/Concretehit3 Misc/Concretehit4 Misc/Concretehit5 }
+Misc/ConcreteHit1 BULLHIT1
+Misc/ConcreteHit2 BULLHIT2
+Misc/ConcreteHit3 BULLHIT3
+Misc/ConcreteHit4 BULLHIT4
+Misc/ConcreteHit5 BULLHIT5
+
+// Distant shots.
+
+world/riflefar			ZM66FDIS
+$volume world/riflefar 0.5
+
+world/shotgunfar		SHOTFDIS
+$volume world/shotgunfar 0.5
+
+world/vulcfar			CGUNFDIS
+$volume world/vulcfar 0.5
+
+world/herpfar			HERPFDIS
+$volume world/herpfar 0.5

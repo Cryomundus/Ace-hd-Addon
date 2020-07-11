@@ -1,0 +1,40 @@
+
+Sprite "B9KGA0", 283, 112
+{
+	XScale 1.300
+	YScale 1.500
+	Offset -67, -140
+	Patch "BFGGA0", 0, 0
+}
+
+Sprite "B9KGB0", 283, 112
+{
+	XScale 1.300
+	YScale 1.500
+	Offset -67, -145
+	Patch "BFGGB0", 0, 0
+}
+
+Sprite "B9KGC0", 283, 112
+{
+	XScale 1.300
+	YScale 1.500
+	Offset -67, -145
+	Patch "BFGGA0", 0, 0
+}
+
+Sprite "B9KFA0", 283, 207
+{
+	XScale 1.300
+	YScale 1.500
+	Offset -67, -54
+	Patch "BFGFA0", 0, 0
+}
+
+Sprite "B9KFB0", 413, 169
+{
+	XScale 1.300
+	YScale 1.500
+	Offset -2, -96
+	Patch "BFGFB0", 0, 0
+}

@@ -1,0 +1,45 @@
+// Do keep in mind that this list is incomplete and credits are missing because some of these sprites are used in a lot of places. It's redonkulously difficult to remember all of these.
+
+Sprites:
+- Pickups are mostly from Trailblazer. Some are from Freedoom. The ones I know for sure I'll credit in detail.
+- Player sprite I dug up from some skin pack I downloaded some five years ago. No idea where it's from. No credits in the skin pack from what I see.
+- Chainsaw: /vr/ anon (that's what Zik's credits say)
+- SMG: DoomNukem, silentzora. Reflex sight by a1337spy.
+- Pistol: Freedoom Team
+- Revolver: Originally by Solid Steak in the DoomNukem resources thread, edits by Accensus.
+- Hunter: Originally from Doom64, edited by osjclatchford. Got it from the Spriting Carnival.
+- Slayer: Originally by DoomNukem. Longer barrel by me.
+- ZM66: Originally by Sonik.O.Fan (it's Quake 4's assault rifle), edits by Accensus.
+- Vulcanette: Eriance, Snarboo, Uboa, Midway Studios, Mike12 (credits taken from ZikShadow's HD addon which this one is based on)
+- Grenade Launcher: No idea. It's familiar but I don't recall where I've seen it.
+- Rocket Launcher: Demon Eclipse, Sergeant_Mark_IV
+- Thunder Buster: BouncyTEM? That's what Zik's credits say.
+- Liberator: No idea.
+- Boss Rifle: No idea. Definitely took it from the Spriting Carnival if I recall correctly. Was a while ago.
+- BFG: Sonik.O.Fan
+- Brontornis: No idea. Mor'ladim gave it to me. Seems to be a frankensprite.
+- ZM69: Also no idea.
+
+- Merchant: Strife (Rogue)
+
+- Baron of hell: Dunno, but I've seen it used in a lot of places.
+- Demon: Eriance, IIRC.
+- Imp: Eriance
+- Putto: Definitely looks like it's by Eriance. Taken from Freedoom.
+
+All sprite edits are done by Accensus.
+
+Graphics:
+- All the sight edits are by Accensus.
+- Mugshot sprite taken from Trailblazer. Either PillowBlaster or DoomNukem did it. My money is on DoomNukem.
+
+// Oh boy, I don't even know where to begin. It's been a very long time since I've changed the sounds so forgive me if I don't know precisely where they're from.
+Sounds:
+- a1337spy's InsurgencySfx addon for HD.
+- Trailblazer
+- Russian Overkill
+- Guncaster (Say what you will, PillowBlaster knows his sounds)
+- kodi (Shotgun fire)
+
+Code:
+- Merchant by Accensus. Edits to Caligari's shader and Tartlman/bogus' ZM69 also by me.

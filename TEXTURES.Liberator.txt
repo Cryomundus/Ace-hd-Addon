@@ -1,0 +1,68 @@
+Sprite "BRFFA0", 320, 168
+{
+	YScale 1.200
+	Offset 1, -40
+	Patch "LBRFA0", 0, 0
+}
+
+Sprite "BRFGA0", 320, 168
+{
+	YScale 1.200
+	Offset 1, -40
+	Patch "LBRGA0", 0, 0
+}
+
+Sprite "BRFGB0", 320, 168
+{
+	XScale 0.950
+	YScale 1.150
+	Offset 9, -40
+	Patch "LBRGB0", 0, 0
+}
+
+Sprite "RMAGA0", 5, 7
+{
+	Offset 2, 4
+	Patch "LBRMAG", 0, 0
+}
+
+Sprite "RMAGB0", 6, 5
+{
+	Offset 3, 4
+	Patch "LBRMAG", 0, 0
+	{
+		Rotate 270
+		Translation "160:167=104:111"
+	}
+}
+
+Graphic "RMAGNORM", 7, 7
+{
+	XScale 0.700
+	YScale 0.700
+	Offset 5, 7
+	Patch "LBRMAG", 0, 0
+}
+
+Graphic "RMAGGREY", 7, 7
+{
+	XScale 0.700
+	YScale 0.700
+	Offset 5, 7
+	Patch "LBRMAG", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[1.80,1.80,1.80]"
+	}
+}
+
+Graphic "RMAGEMPTY", 9, 5
+{
+	XScale 0.700
+	YScale 0.700
+	Offset 7, 5
+	Patch "LBRMAG", 0, 0
+	{
+		Rotate 270
+		Translation "160:167=104:111"
+	}
+}

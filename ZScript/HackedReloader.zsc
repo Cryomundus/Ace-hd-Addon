@@ -1,0 +1,46 @@
+class HackedReloader: AutoReloader replaces AutoReloader
+{
+	void A_MakeRound()
+	{
+		if (brass < 1 || powders < 4)
+		{
+			makinground = false;
+			SetStateLabel("spawn");
+			return;
+		}
+		brass--;
+		powders -= 4;
+
+		A_StartSound("roundmaker/pop", 10);
+
+		if(!random(0, 31))
+		{
+			A_SpawnItemEx("HDExplosion");
+			A_Explode(32, 32);
+		}
+		else
+		{
+			A_SpawnItemEx("HDLoose7mm", 0, 0, 0, 1, 0, 3, 0, SXF_NOCHECKPOSITION);
+		}
+	}
+
+	Default
+	{
+		Tag "7.76mm Hacked Reloading Device";
+		HDWeapon.RefId "7hr";
+	}
+
+	States
+	{
+		chug:
+		---- AAAAAAAAAA 3
+		{
+			invoker.A_Chug();
+		}
+		---- A 10
+		{
+			invoker.A_MakeRound();
+		}
+		---- A 0 A_Jump(256, "spawn");
+	}
+}

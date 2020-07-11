@@ -1,0 +1,58 @@
+Sprite "Z69FA0", 320, 200
+{
+	XScale 1.100
+	YScale 1.300
+	Offset -16, -23
+	Patch "ZM69FA0", 0, 0
+}
+
+Sprite "Z69GA0", 320, 200
+{
+	XScale 1.100
+	YScale 1.300
+	Offset -16, -23
+	Patch "ZM69GA0", 0, 0
+}
+
+Sprite "Z69GB0", 320, 200
+{
+	XScale 1.050
+	YScale 1.250
+	Offset -8, -23
+	Patch "ZM69GA0", 0, 0
+}
+
+Sprite "OM10A0", 11, 9
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 5, 9
+	Patch "OMAG10A0", 0, 0
+}
+
+Sprite "OM10B0", 11, 9
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 5, 9
+	Patch "OMAG10B0", 0, 0
+}
+
+Graphic "OMAGNORM", 11, 9
+{
+	XScale 0.625
+	YScale 0.625
+	Offset 7, 10
+	Patch "OMAG10A0", 0, 0
+}
+
+Graphic "OMAGGREY", 11, 9
+{
+	XScale 0.625
+	YScale 0.625
+	Offset 7, 10
+	Patch "OMAG10A0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[1.80,1.80,1.80]"
+	}
+}

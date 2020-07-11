@@ -1,0 +1,96 @@
+version "4.2"
+
+#include "ZScript/50OMGAmmo.zsc"
+#include "ZScript/ZM69.zsc"
+#include "ZScript/HackedReloader.zsc"
+#include "ZScript/AceMerchant.zsc"
+//#include "ZScript/BrassCatcher.zsc"
+
+class AceHandler : StaticEventHandler
+{
+	override void CheckReplacement(ReplaceEvent e)
+	{
+		if (!e.Replacement)
+		{
+			return;
+		}
+
+		switch (e.Replacement.GetClassName())
+		{
+			case 'PlasmaReplaces':
+				if (!random(0, 2))
+				{
+					e.Replacement = "ZM69Random";
+					e.IsFinal = true;
+				}
+				break;
+			case 'CellRandom':
+				if (!random(0, 7))
+				{
+					e.Replacement = random(0, 2) ? "HD50OMGMag" : "HD50OMGBoxPickup";
+					e.IsFinal = true;
+				}
+				break;
+		}
+
+		class<Actor> Replacement = ahd_replacement;
+		if (Replacement)
+		{
+			switch (e.Replacee.GetClassName())
+			{
+				case 'Zombieman':
+				case 'ShotgunGuy':
+				case 'DoomImp':
+				case 'ChaingunGuy':
+				case 'Demon':
+				case 'Spectre':
+				case 'Revenant':
+				case 'LostSoul':
+				case 'Cacodemon':
+				case 'PainElemental':
+				case 'Arachnotron':
+				case 'Fatso':
+				case 'HellKnight':
+				case 'BaronOfHell':
+				case 'SpiderMastermind':
+				case 'Cyberdemon':
+				case 'WolfensteinSS':
+					e.Replacement = Replacement;
+					e.IsFinal = true;
+					break;
+			}
+		}
+	}
+
+	override void WorldLoaded(WorldEvent e)
+	{
+		if (e.IsSaveGame) return;
+
+		for (int i = 0; i < level.Sectors.Size(); ++i)
+		{
+			Sector CurrSec = level.Sectors[i];
+			vector3 SpawnPos = (CurrSec.centerspot.x, CurrSec.centerspot.y, CurrSec.floorplane.ZAtPoint(CurrSec.centerspot));
+
+			if (CurrSec.IsSecret() && random(1, 100) <= max(10, 25 - 2 * level.total_secrets))
+			{
+				Actor.Spawn("AceMerchant", SpawnPos);
+			}
+		}
+	}
+
+	override void PlayerEntered(PlayerEvent e)
+	{
+		let plr = players[e.PlayerNumber].mo;
+		if (plr)
+		{
+			plr.A_SetBlend("000000", 1.0, 60);
+		}
+	}
+}
+class AceSkin : HDSkin
+{
+	States
+	{
+		Spawn: MPLR A 0; Stop;
+	}
+}
