@@ -40,7 +40,7 @@ Sounds:
 - Trailblazer
 - Russian Overkill
 - Guncaster (Say what you will, PillowBlaster knows his sounds)
-- kodi (Shotgun fire)
+- Hotline Miami (Silenced SMG)
 
 Code:
 - Merchant by Accensus. Edits to Caligari's shader and Tartlman/bogus' ZM69 also by me.
