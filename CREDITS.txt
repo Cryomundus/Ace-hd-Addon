@@ -2,7 +2,6 @@
 // If you happen to know where a certain sprite is from or who made it, please let me know.
 
 Sprites:
-- Pickups are mostly from Trailblazer. Some are from Freedoom. The ones I know for sure I'll credit in detail.
 - Player sprite I dug up from some skin pack I downloaded some five years ago. No idea where it's from. No credits in the skin pack from what I see.
 - Chainsaw: /vr/ anon (that's what Zik's credits say)
 - SMG: DoomNukem, silentzora. Reflex sight by a1337spy.
@@ -20,6 +19,8 @@ Sprites:
 - BFG: Sonik.O.Fan
 - Brontornis: No idea. Mor'ladim gave it to me. Seems to be a frankensprite.
 - ZM69: Also no idea.
+- 7mm Box, .50 OMG box, .355 Box, 9mm Box, Rocket Box, Shellbox, NV Goggles: DoomNukem/PillowBlaster
+- Shells, Radsuit: Freedoom
 
 - Merchant: Strife (Rogue)
 
