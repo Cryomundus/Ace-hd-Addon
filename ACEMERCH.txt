@@ -124,19 +124,6 @@ Running low on ammo? Heh, you've found the right guy. I have something that migh
 		Goodbye = "\c[White]Actually, I changed my mind.\c-";
 		Choice
 		{
-			Text = "\c[White]30\c- .50 OMG Rounds \c[Gold](120 Brass)\c-";
-			YesMessage = "Are you sure you can carry all of these?";
-			NoMessage = "Big ammo costs big money. Money you don't have.";
-			GiveItem = "Item50Cal";
-			NextPage = "Trading - Brass - II";
-			Cost
-			{
-				Item = "sevenmilbrass";
-				Amount = 120;
-			}
-		}
-		Choice
-		{
 			Text = "\c[White]1\c- H.E.A.T. Rocket \c[Gold](75 Brass)\c-";
 			YesMessage = "One shot, one kill.";
 			NoMessage = "Packing heat? Well you sure didn't pack any money.";
@@ -286,19 +273,6 @@ Running low on ammo? Heh, you've found the right guy. I have something that migh
 		PageName = "Trading - SevenMil - II";
 		Dialog = "Ah, excellent! Here's what I can trade:";
 		Goodbye = "\c[White]Actually, I changed my mind.\c-";
-		Choice
-		{
-			Text = "\c[White]30\c- .50 OMG Rounds \c[Gold](70 7mm)\c-";
-			YesMessage = "Are you sure you can carry all of these?";
-			NoMessage = "Big ammo costs big money. Money you don't have.";
-			GiveItem = "HEATAmmo";
-			NextPage = "Trading - SevenMil - II";
-			Cost
-			{
-				Item = "SevenMilAmmo";
-				Amount = 70;
-			}
-		}
 		Choice
 		{
 			Text = "\c[White]1\c- H.E.A.T. Rocket \c[Gold](45 7mm)\c-";

@@ -103,17 +103,6 @@ Running low on ammo? Heh, you've found the right guy. I have something that migh
 			<Dialog>Ah, excellent! Here's what I can trade:</Dialog>
 			<Goodbye>\c[White]Actually, I changed my mind.\c-</Goodbye>
 			<Choice>
-				<Text>\c[White]30\c- .50 OMG Rounds \c[Gold](120 Brass)\c-</Text>
-				<YesMessage>Are you sure you can carry all of these?</YesMessage>
-				<NoMessage>Big ammo costs big money. Money you don't have.</NoMessage>
-				<NextPage>Trading - Brass - II</NextPage>
-				<GiveItem>Item50Cal</GiveItem>
-				<CostBlock type="0">
-					<Item>sevenmilbrass</Item>
-					<Amount>120</Amount>
-				</CostBlock>
-			</Choice>
-			<Choice>
 				<Text>\c[White]1\c- H.E.A.T. Rocket \c[Gold](75 Brass)\c-</Text>
 				<YesMessage>One shot, one kill.</YesMessage>
 				<NoMessage>Packing heat? Well you sure didn't pack any money.</NoMessage>
@@ -240,17 +229,6 @@ Running low on ammo? Heh, you've found the right guy. I have something that migh
 			<Name>The Brass Collector</Name>
 			<Dialog>Ah, excellent! Here's what I can trade:</Dialog>
 			<Goodbye>\c[White]Actually, I changed my mind.\c-</Goodbye>
-			<Choice>
-				<Text>\c[White]30\c- .50 OMG Rounds \c[Gold](70 7mm)\c-</Text>
-				<YesMessage>Are you sure you can carry all of these?</YesMessage>
-				<NoMessage>Big ammo costs big money. Money you don't have.</NoMessage>
-				<NextPage>Trading - SevenMil - II</NextPage>
-				<GiveItem>HEATAmmo</GiveItem>
-				<CostBlock type="0">
-					<Item>SevenMilAmmo</Item>
-					<Amount>70</Amount>
-				</CostBlock>
-			</Choice>
 			<Choice>
 				<Text>\c[White]1\c- H.E.A.T. Rocket \c[Gold](45 7mm)\c-</Text>
 				<YesMessage>One shot, one kill.</YesMessage>
