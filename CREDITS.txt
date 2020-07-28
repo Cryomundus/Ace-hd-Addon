@@ -22,8 +22,6 @@ Sprites:
 - 7mm Box, .50 OMG box, .355 Box, 9mm Box, Rocket Box, Shellbox, NV Goggles: DoomNukem/PillowBlaster
 - Shells, Radsuit: Freedoom
 
-- Merchant: Strife (Rogue)
-
 - Baron of hell: Dunno, but I've seen it used in a lot of places.
 - Demon: Eriance, IIRC.
 - Imp: Eriance
