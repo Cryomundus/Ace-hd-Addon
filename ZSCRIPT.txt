@@ -19,14 +19,14 @@ class AceHandler : StaticEventHandler
 				if (!random(0, 2))
 				{
 					e.Replacement = "ZM69Random";
-					e.IsFinal = true;
+					e.IsFinal = false;
 				}
 				break;
 			case 'CellRandom':
 				if (!random(0, 7))
 				{
 					e.Replacement = random(0, 2) ? "HD50OMGMag" : "HD50OMGBoxPickup";
-					e.IsFinal = true;
+					e.IsFinal = false;
 				}
 				break;
 		}
