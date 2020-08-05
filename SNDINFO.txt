@@ -57,6 +57,7 @@ Weapons/RockChamber		ROCKCHAM
 Weapons/PlasIdle		PLASIDLE
 Weapons/PlasmaS			PLASEMPT
 Weapons/PlasCrack		PLSFIRE1
+$volume Weapons/PlasCrack 0.25
 Weapons/PlasmaF			PLSFIRE2
 Weapons/PlasSwitch		PLASCHNG
 Weapons/PlasOpen		PLASOPEN
