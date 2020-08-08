@@ -42,5 +42,11 @@ Sounds:
 - Guncaster (Say what you will, PillowBlaster knows his sounds)
 - Hotline Miami (Silenced SMG)
 
+Textures:
+- cc4-tex for the sky. Don't know who made it.
+- Shogo (Monolith Productions) for all the textures.
+
+All texture edits are done by Accensus.
+
 Code:
 - Merchant by Accensus. Edits to Caligari's shader and Tartlman/bogus' ZM69 also by me.

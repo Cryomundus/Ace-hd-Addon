@@ -68,7 +68,19 @@ class AceHandler : StaticEventHandler
 			plr.A_SetBlend("000000", 1.0, 60);
 		}
 	}
+
+	override void WorldLoaded(WorldEvent e)
+	{
+		if (level.MapName ~== "MAP31")
+		{
+			if (random(1, 100) <= ahd_secretlevelchance)
+			{
+				level.NextSecretMap = "LOTSAGUN";
+			}
+		}
+	}
 }
+
 class AceSkin : HDSkin
 {
 	States

@@ -3,3 +3,12 @@ GameInfo
 	AddEventHandlers = "AceHandler"
 	Dialogue = "ACEMERCH"
 }
+
+Map LOTSAGUN "Lots of Guns"
+{
+	Author = "Accensus"
+	Cluster = 0
+	Next = "MAP16"
+	Music = "GUNSGUNS"
+	Sky1 = "SKYGUN", 0.05
+}

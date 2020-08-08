@@ -1,1 +1,2 @@
 server string ahd_replacement = "None";
+server int ahd_secretlevelchance = 30;
