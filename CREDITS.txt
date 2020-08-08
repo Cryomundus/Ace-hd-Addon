@@ -50,3 +50,6 @@ All texture edits are done by Accensus.
 
 Code:
 - Merchant by Accensus. Edits to Caligari's shader and Tartlman/bogus' ZM69 also by me.
+
+Music:
+D_GUNS, originally Babylon3 by Necros. (https://modarchive.org/index.php?request=view_by_moduleid&query=69424)
