@@ -1,2 +1,4 @@
 server string ahd_replacement = "None";
-server int ahd_secretlevelchance = 30;
+server int ahd_seclev_chance = 30;
+server string ahd_seclev_replacement = "MAP31";
+server string ahd_seclev_nextmap = "MAP16";

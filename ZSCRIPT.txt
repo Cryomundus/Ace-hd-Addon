@@ -71,12 +71,16 @@ class AceHandler : StaticEventHandler
 
 	override void WorldLoaded(WorldEvent e)
 	{
-		if (level.MapName ~== "MAP31")
+		if (level.MapName ~== ahd_seclev_replacement && !e.IsSaveGame)
 		{
-			if (random(1, 100) <= ahd_secretlevelchance)
+			if (random(1, 100) <= ahd_seclev_chance)
 			{
 				level.NextSecretMap = "LOTSAGUN";
 			}
+		}
+		else if (level.MapName ~== ahd_seclev_nextmap)
+		{
+			level.NextMap = ahd_seclev_nextmap;
 		}
 	}
 }

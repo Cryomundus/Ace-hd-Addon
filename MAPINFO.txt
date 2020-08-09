@@ -7,8 +7,6 @@ GameInfo
 Map LOTSAGUN "Lots of Guns"
 {
 	Author = "Accensus"
-	Cluster = 0
-	Next = "MAP16"
 	Music = "D_GUNS"
 	Sky1 = "SKYGUN", 0.05
 }
