@@ -9,7 +9,7 @@ Sprites:
 - Revolver: Originally by Solid Steak in the DoomNukem resources thread, edits by Accensus.
 - Hunter: Originally from Doom64, edited by osjclatchford. Got it from the Spriting Carnival.
 - Slayer: Originally by DoomNukem. Longer barrel by me.
-- ZM66: Originally by Sonik.O.Fan (it's Quake 4's assault rifle), edits by Accensus.
+- ZM66: Sgt. Shivers, scope frankensprited by Accensus using another rifle by Sgt. Shivers.
 - Vulcanette: Eriance, Snarboo, Uboa, Midway Studios, Mike12 (credits taken from ZikShadow's HD addon which this one is based on)
 - Grenade Launcher: No idea. It's familiar but I don't recall where I've seen it.
 - Rocket Launcher: Demon Eclipse, Sergeant_Mark_IV
