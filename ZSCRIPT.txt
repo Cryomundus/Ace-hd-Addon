@@ -73,8 +73,7 @@ class AceHandler : StaticEventHandler
 	{
 		if (level.MapName != "LOTSAGUN")
 		{
-			bool Success = random(1, 100) <= ahd_seclev_chance;
-			if (!e.IsSaveGame && Success)
+			if (random(1, 100) <= ahd_seclev_chance)
 			{
 				if (level.NextSecretMap ~== ahd_seclev_replacement)
 				{
