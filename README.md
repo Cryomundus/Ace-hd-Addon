@@ -10,7 +10,7 @@ Download the zip and load it into GZDoom. No need to change its extension to .pk
 - Caligari87's night vision shader (more saturated; green is more Delta Force-ish)
 - Sounds for most if not all weapons
 - Custom PLAYPAL (Less saturated blues, more saturated greens)
-- Merchant
+- Oops All ____! (hdf_replacement CVar)
 - Fading from black when entering level
 - New sights and scopes in the spirit of vanilla HD's graphics
 - Male mugshot
