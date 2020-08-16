@@ -1,3 +1,0 @@
-HDOtisGun, SSGReplaces, 32;
-HD500LightBoxPickup, ShellBoxRandom, 32;
-HD500HeavyBoxPickup, RocketBoxRandom, 16;
