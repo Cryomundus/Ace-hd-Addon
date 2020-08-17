@@ -1,7 +1,6 @@
 GameInfo
 {
 	AddEventHandlers = "AceHandler"
-	Dialogue = "ACEMERCH"
 }
 
 Map LOTSAGUN "Lots of Guns"
