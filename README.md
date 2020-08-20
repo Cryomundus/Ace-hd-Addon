@@ -5,7 +5,6 @@ Download the zip and load it into GZDoom. No need to change its extension to .pk
 ### Contents
 ---
 - New sprites for every weapon and half of the pickups
-- Caligari87's night vision shader (more saturated; green is more Delta Force-ish)
 - Sounds for most if not all weapons
 - Custom PLAYPAL (Less saturated blues, more saturated greens)
 - Fading from black when entering level
