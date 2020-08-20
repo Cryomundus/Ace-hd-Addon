@@ -1,93 +1,13 @@
 version "4.2"
 
-#include "ZScript/50OMGAmmo.zsc"
-#include "ZScript/ZM69.zsc"
-#include "ZScript/HackedReloader.zsc"
-
 class AceHandler : StaticEventHandler
 {
-	override void CheckReplacement(ReplaceEvent e)
-	{
-		if (!e.Replacement)
-		{
-			return;
-		}
-
-		switch (e.Replacement.GetClassName())
-		{
-			case 'PlasmaReplaces':
-				if (!random(0, 2))
-				{
-					e.Replacement = "ZM69Random";
-					e.IsFinal = false;
-				}
-				break;
-			case 'CellRandom':
-				if (!random(0, 7))
-				{
-					e.Replacement = random(0, 2) ? "HD50OMGMag" : "HD50OMGBoxPickup";
-					e.IsFinal = false;
-				}
-				break;
-		}
-
-		class<Actor> Replacement = ahd_replacement;
-		if (Replacement)
-		{
-			switch (e.Replacee.GetClassName())
-			{
-				case 'Zombieman':
-				case 'ShotgunGuy':
-				case 'DoomImp':
-				case 'ChaingunGuy':
-				case 'Demon':
-				case 'Spectre':
-				case 'Revenant':
-				case 'LostSoul':
-				case 'Cacodemon':
-				case 'PainElemental':
-				case 'Arachnotron':
-				case 'Fatso':
-				case 'HellKnight':
-				case 'BaronOfHell':
-				case 'SpiderMastermind':
-				case 'Cyberdemon':
-				case 'WolfensteinSS':
-					e.Replacement = Replacement;
-					e.IsFinal = true;
-					break;
-			}
-		}
-	}
-
 	override void PlayerEntered(PlayerEvent e)
 	{
 		let plr = players[e.PlayerNumber].mo;
 		if (plr)
 		{
 			plr.A_SetBlend("000000", 1.0, 60);
-		}
-	}
-
-	override void WorldLoaded(WorldEvent e)
-	{
-		if (level.MapName != "LOTSAGUN")
-		{
-			if (random(1, 100) <= ahd_seclev_chance)
-			{
-				if (level.NextSecretMap ~== ahd_seclev_replacement)
-				{
-					level.NextSecretMap = "LOTSAGUN";
-				}
-				else if (level.NextMap ~== ahd_seclev_replacement)
-				{
-					level.NextMap = "LOTSAGUN";
-				}
-			}
-		}
-		else
-		{
-			level.NextMap = ahd_seclev_nextmap;
 		}
 	}
 }
