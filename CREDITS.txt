@@ -6,7 +6,7 @@ Sprites:
 - Chainsaw: /vr/ anon (that's what Zik's credits say)
 - SMG: DoomNukem, silentzora. Reflex sight by a1337spy.
 - Pistol: Freedoom Team
-- Revolver: Originally by Solid Steak in the DoomNukem resources thread, edits by Accensus.
+- Revolver: From Hideous Destructor, recolored by I.S.G.
 - Hunter: Originally from Doom64, edited by osjclatchford. Got it from the Spriting Carnival.
 - Slayer: Originally by DoomNukem. Longer barrel by me.
 - ZM66: Sgt. Shivers, scope frankensprited by Accensus using another rifle by Sgt. Shivers.
