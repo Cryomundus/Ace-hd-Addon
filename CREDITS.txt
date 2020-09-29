@@ -14,7 +14,7 @@ Sprites:
 - Grenade Launcher: No idea. It's familiar but I don't recall where I've seen it.
 - Rocket Launcher: Demon Eclipse, Sergeant_Mark_IV
 - Thunder Buster: BouncyTEM? That's what Zik's credits say.
-- Liberator: No idea.
+- Liberator: DoomNukem. Bullpup edits by ExUmbra.
 - Boss Rifle: No idea. Definitely took it from the Spriting Carnival if I recall correctly. Was a while ago.
 - BFG: Sonik.O.Fan
 - Brontornis: No idea. Mor'ladim gave it to me. Seems to be a frankensprite.
