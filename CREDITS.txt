@@ -21,7 +21,10 @@ Sprites:
 - ZM69: Also no idea.
 - 7mm Box, .50 OMG box, .355 Box, 9mm Box, Rocket Box, Shellbox, NV Goggles: DoomNukem/PillowBlaster
 - Shells, Radsuit: Freedoom
-- Otis-5: Sprites of Bone Collector .500 (from Killing Floor 2) ripped and sprited by a1337spy (credits taken verbatim from Sledge's addon)
+
+Sprites (Peppergrinder):
+- All credits for sprites that came from Peppergrinder can be found here: https://gitlab.com/hdiscord-saltmines/hd-peppergrinder/-/blob/master/credit
+All edits to those are by Accensus.
 
 - Baron of hell: Dunno, but I've seen it used in a lot of places.
 - Demon: Eriance, IIRC.
