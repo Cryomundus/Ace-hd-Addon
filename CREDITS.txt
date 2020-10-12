@@ -35,7 +35,8 @@ All sprite edits are done by Accensus.
 
 Graphics:
 - All the sight edits are by Accensus.
-- Mugshot sprite taken from Trailblazer. Either PillowBlaster or DoomNukem did it. My money is on DoomNukem.
+- Male mugshot sprite taken from Trailblazer, made by PillowBlaster.
+- Female mugshot by Nash. Fixed up by PillowBlaster after Nesh did a fairly poor job at it. No, I don't feel bad saying this.
 
 // Oh boy, I don't even know where to begin. It's been a very long time since I've changed the sounds so forgive me if I don't know precisely where they're from.
 Sounds:
