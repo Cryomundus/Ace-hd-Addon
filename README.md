@@ -10,4 +10,5 @@ Download the zip and load it into GZDoom. No need to change its extension to .pk
 - Fading from black when entering level
 - New sights and scopes in the spirit of vanilla HD's graphics
 - Male mugshot
+- Female mugshot
 - Female sounds
