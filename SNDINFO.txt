@@ -27,6 +27,8 @@ Weapons/Hunter2			SHTFIRE2
 Weapons/Hunter3			SHTFIRE3
 Weapons/Hunter4			SHTFIRE4
 $random Weapons/Hunter { Weapons/Hunter1 Weapons/Hunter2 Weapons/Hunter3 Weapons/Hunter4 }
+Weapons/HuntRackUp		SHOTPUM1
+Weapons/HuntRackDown	SHOTPUM2
 
 // Slayer.
 $alias Weapons/SlayerSingle	Weapons/Hunter
