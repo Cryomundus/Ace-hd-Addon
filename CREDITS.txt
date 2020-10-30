@@ -11,7 +11,7 @@ Sprites:
 - Slayer: Originally by DoomNukem. Longer barrel by me.
 - ZM66: Sgt. Shivers, scope frankensprited by Accensus using another rifle by Sgt. Shivers.
 - Vulcanette: Eriance, Snarboo, Uboa, Midway Studios, Mike12 (credits taken from ZikShadow's HD addon which this one is based on)
-- Grenade Launcher: No idea. It's familiar but I don't recall where I've seen it.
+- Blooper: Sprite by Sonik.O.Fan, edited by a1337spy to match the old one.
 - Rocket Launcher: Demon Eclipse, Sergeant_Mark_IV
 - Thunder Buster: BouncyTEM? That's what Zik's credits say.
 - Liberator: DoomNukem. Bullpup edits by ExUmbra.
