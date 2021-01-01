@@ -14,6 +14,11 @@ class AceHandler : StaticEventHandler
 
 class AceSkin : HDSkin
 {
+	Default
+	{
+		HDSkin.Mug "WRT";
+	}
+	
 	States
 	{
 		Spawn: MPLR A 0; Stop;

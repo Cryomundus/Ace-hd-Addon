@@ -5,8 +5,8 @@
 - Custom PLAYPAL (Less saturated blues, more saturated greens)
 - Fading from black when entering level
 - New sights and scopes in the spirit of vanilla HD's graphics
-- Male mugshot
-- Female mugshot
+- Two male mugshots
+- One female mugshot
 - Female sounds
 
 ### Mod support
