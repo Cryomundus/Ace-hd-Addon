@@ -8,3 +8,9 @@
 - Male mugshot
 - Female mugshot
 - Female sounds
+
+### Mod support
+---
+This includes sights and/or gloved sprites.
+- All of my weapon mods (where applicable)
+- Partial Peppergrinder support, i.e. about half of the weapons.
