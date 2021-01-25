@@ -26,6 +26,11 @@ Sprites (Peppergrinder):
 - All credits for sprites that came from Peppergrinder can be found here: https://gitlab.com/hdiscord-saltmines/hd-peppergrinder/-/blob/master/credit
 All edits to those are by Accensus.
 
+Sprites (Ace's stuff):
+- Each mod has its own separate credits file. Check it.
+
+Sprites (Monsters):
+
 - Baron of hell: Dunno, but I've seen it used in a lot of places.
 - Demon: Eriance, IIRC.
 - Imp: Eriance
