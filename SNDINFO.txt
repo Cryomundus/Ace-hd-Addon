@@ -3,25 +3,19 @@ Weapons/Vulcanette		VULCFIRE
 Weapons/SMG				SMGFIRE
 Weapons/ZM69Fire 		DSZ69FIR
 
-// Misc.
-
-$random Weapons/Pocket { Weapons/Pocket1 Weapons/Pocket2 }
-Weapons/Pocket1 PPOCKET1
-Weapons/Pocket2 PPOCKET2
-
-// Pistol.
+// Pistol
 Weapons/Pistol			PISTFIRE
 Weapons/PisMagClick		PISTMAGO
 Weapons/PistolDry		PISTEMPT
 Weapons/PisChamber1		PISTMAGI
 Weapons/PisChamber2		PISTSLID
 
-// SMG.
+// SMG
 Weapons/SMGChamber		SMGCHMBR
 Weapons/SMGMagClick		SMGCLICK
 Weapons/SMGMagMove		SMGLOAD
 
-// Hunter.
+// Hunter
 Weapons/Hunter1			SHTFIRE1
 Weapons/Hunter2			SHTFIRE2
 Weapons/Hunter3			SHTFIRE3
@@ -30,7 +24,7 @@ $random Weapons/Hunter { Weapons/Hunter1 Weapons/Hunter2 Weapons/Hunter3 Weapons
 Weapons/HuntRackUp		SHOTPUM1
 Weapons/HuntRackDown	SHOTPUM2
 
-// Slayer.
+// Slayer
 $alias Weapons/SlayerSingle	Weapons/Hunter
 Weapons/sshoto			DOUBOPEN
 $random Weapons/sshotl	{ Misc/DoubleRel1 Misc/DoubleRel2 Misc/DoubleRel3 }
@@ -43,7 +37,7 @@ Weapons/sshotc			DOUBCLOS
 Weapons/RifleLoad		ZM66LOAD
 Weapons/RifChamber		ZM66CHAM
 
-// Grenade Launcher.
+// Grenade Launcher
 Weapons/GrenadeShot		GRENFIRE
 
 // Rocket Launcher
@@ -114,7 +108,7 @@ Tripwire/Break		TRIPTEAR
 Tripwire/FragPain	FRAGPULL
 $random Tripwire/FragClick { Misc/FragBounce1 Misc/FragBounce2 Misc/FragBounce3 Misc/FragBounce4 }
 
-// Casings.
+// Casings
 $random Misc/Casing { Misc/RifleCasing1 Misc/RifleCasing2 Misc/RifleCasing3 Misc/RifleCasing4 }
 Misc/RifleCasing1 RIFSHEL1
 Misc/RifleCasing2 RIFSHEL2
@@ -143,7 +137,7 @@ Misc/BrontoCasing2 BRNTCSG2
 Misc/BrontoCasing3 BRNTCSG3
 Misc/BrontoCasing4 BRNTCSG4
 
-// Explosions.
+// Explosions
 $random World/Explode { Misc/explode1 Misc/explode2 Misc/explode3 }
 Misc/Explode1 EXPLODE1
 Misc/Explode2 EXPLODE2
@@ -154,7 +148,7 @@ Misc/DistantExplode1 EXPLDIS1
 Misc/DistantExplode2 EXPLDIS2
 Misc/DistantExplode3 EXPLDIS3
 
-// Impacts.
+// Impacts
 $random Misc/BulletHit { Misc/Concretehit1 Misc/Concretehit2 Misc/Concretehit3 Misc/Concretehit4 Misc/Concretehit5 }
 Misc/ConcreteHit1 BULLHIT1
 Misc/ConcreteHit2 BULLHIT2
@@ -162,7 +156,7 @@ Misc/ConcreteHit3 BULLHIT3
 Misc/ConcreteHit4 BULLHIT4
 Misc/ConcreteHit5 BULLHIT5
 
-// Distant shots.
+// Distant shots
 
 world/riflefar			ZM66FDIS
 $volume world/riflefar 0.5
@@ -175,3 +169,17 @@ $volume world/vulcfar 0.5
 
 world/herpfar			HERPFDIS
 $volume world/herpfar 0.5
+
+// Miscellaneous
+$random Weapons/Pocket { Weapons/Pocket1 Weapons/Pocket2 }
+Weapons/Pocket1 PPOCKET1
+Weapons/Pocket2 PPOCKET2
+
+misc/secret1 DSSECRET
+misc/secret2 DSARIEL
+
+$random misc/secret
+{
+	misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1
+	misc/secret2
+}
