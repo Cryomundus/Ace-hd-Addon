@@ -12,11 +12,38 @@ class AceHandler : StaticEventHandler
 	}
 }
 
-class AceSkin : HDSkin
+class Malcolm : HDSkin
+{
+	Default
+	{
+		HDSkin.Mug "TRB";
+	}
+	
+	States
+	{
+		Spawn: MPLR A 0; Stop;
+	}
+}
+
+class SCWraith : HDSkin
 {
 	Default
 	{
 		HDSkin.Mug "WRT";
+	}
+	
+	States
+	{
+		Spawn: MPLR A 0; Stop;
+	}
+}
+
+class Solomon : HDSkin
+{
+	Default
+	{
+		HDSkin.Mug "LCH";
+		BloodColor "5D2395";
 	}
 	
 	States
