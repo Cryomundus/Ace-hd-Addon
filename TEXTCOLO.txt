@@ -1,8 +1,16 @@
 // I just wanted a custom name color but it has to be defined here.
-PlrNameBlue
+Imperator
 {
 	#1F2C3D #82B6FF 0 192
 
 	Console:
 		#000000 #82B6FF 0 192
+}
+
+Solomon
+{
+	#131313 #6666FF 0 192
+
+	Console:
+		#000000 #6666FF 0 192
 }

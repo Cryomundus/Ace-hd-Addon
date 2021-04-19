@@ -2,10 +2,3 @@ GameInfo
 {
 	AddEventHandlers = "AceHandler"
 }
-
-Map LOTSAGUN "Lots of Guns"
-{
-	Author = "Accensus"
-	Music = "D_GUNS"
-	Sky1 = "SKYGUN", 0.05
-}

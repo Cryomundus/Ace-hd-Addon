@@ -183,3 +183,11 @@ $random misc/secret
 	misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1
 	misc/secret2
 }
+
+// SOLOMON
+Player/Solomon/Death SOLODETH
+Player/Solomon/Pain SOLOPAIN
+Player/Solomon/XDeath SOLOXDTH
+Player/Solomon/Grunt SOLOGRNT
+Player/Solomon/Meds SOLOMEDS
+Player/Solomon/Taunt SOLOTAUN

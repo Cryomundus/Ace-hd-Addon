@@ -42,6 +42,13 @@ class Solomon : HDSkin
 {
 	Default
 	{
+		DeathSound "Player/Solomon/Death";
+		PainSound "Player/Solomon/Pain";
+		HDSkin.TauntSound "Player/Solomon/Taunt";
+		HDSkin.XDeathSound "Player/Solomon/XDeath";
+		//HDSkin.GruntSound "Player/Solomon/Grunt";
+		HDSkin.MedSound "Player/Solomon/Meds";
+		HDSkin.SoundClass "Solomon";
 		HDSkin.Mug "LCH";
 		BloodColor "5D2395";
 	}

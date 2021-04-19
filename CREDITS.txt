@@ -41,7 +41,7 @@ All sprite edits are done by Accensus.
 Graphics:
 - All the sight edits are by Accensus.
 - Malcolm mugshot sprite taken from Trailblazer, made by PillowBlaster.
-- Wraith mugshot by PillowBlaster. Bless that dude.
+- Wraith and Solomon mugshots by PillowBlaster. Bless that dude.
 - Female mugshot by Nash. Fixed up by PillowBlaster.
 
 // Oh boy, I don't even know where to begin. It's been a very long time since I've changed the sounds so forgive me if I don't know precisely where they're from.
@@ -51,3 +51,4 @@ Sounds:
 - Russian Overkill
 - Guncaster (Say what you will, PillowBlaster knows his sounds)
 - Hotline Miami (Silenced SMG)
+- Hexen
