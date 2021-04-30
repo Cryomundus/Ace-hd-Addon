@@ -51,10 +51,11 @@ class Solomon : HDSkin
 		HDSkin.SoundClass "Solomon";
 		HDSkin.Mug "LCH";
 		BloodColor "5D2395";
+		Scale 0.8;
 	}
 	
 	States
 	{
-		Spawn: MPLR A 0; Stop;
+		Spawn: SLMN A 0; Stop;
 	}
 }
