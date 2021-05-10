@@ -16,7 +16,7 @@ Sprites:
 - Thunder Buster: BouncyTEM? That's what Zik's credits say.
 - Liberator: DoomNukem. Bullpup edits by ExUmbra. Reshade by HyperUltra64.
 - Boss Rifle: No idea. Definitely took it from the Spriting Carnival if I recall correctly. Was a while ago.
-- BFG: No idea. It's the BFG10K from the Doom movie. Has been around since mankind first discovered fire.
+- BFG: No idea. It's the BFG10K from the Doom movie. Has been around since mankind first discovered fire. Edited by Sonik.O.Fan.
 - Brontornis: No idea. Mor'ladim gave it to me. Seems to be a frankensprite.
 - ZM69: Also no idea.
 - 7mm Box, .50 OMG box, .355 Box, 9mm Box, Rocket Box, Shellbox, NV Goggles: DoomNukem/PillowBlaster
