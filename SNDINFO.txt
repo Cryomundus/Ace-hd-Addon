@@ -191,3 +191,7 @@ Player/Solomon/XDeath SOLOXDTH
 Player/Solomon/Grunt SOLOGRNT
 Player/Solomon/Meds SOLOMEDS
 Player/Solomon/Taunt SOLOTAUN
+
+$alias marinen/pain  Player/Solomon/Pain
+$alias marinen/death Player/Solomon/Death
+$alias marinen/taunt Player/Solomon/Taunt
