@@ -14,4 +14,3 @@
 ---
 This includes sights and/or hand sprites.
 - All of my weapon mods (where applicable)
-- Partial Peppergrinder support, i.e. the weapons that I personally play with.
