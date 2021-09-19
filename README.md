@@ -14,3 +14,4 @@
 ---
 This includes sights and/or hand sprites.
 - All of my weapon mods (where applicable)
+- Icarus Innovations (most weapons)

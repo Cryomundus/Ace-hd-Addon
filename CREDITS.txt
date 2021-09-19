@@ -21,16 +21,12 @@ Sprites:
 - ZM69: Also no idea.
 - 7mm Box, .50 OMG box, .355 Box, 9mm Box, Rocket Box, Shellbox, NV Goggles: DoomNukem/PillowBlaster
 - Radsuit: Freedoom
-
-Sprites (Peppergrinder):
-- All credits for sprites that came from Peppergrinder can be found here: https://gitlab.com/hdiscord-saltmines/hd-peppergrinder/-/blob/master/credit
-All edits to those are by Accensus.
+- Battery: id Software, reshaded by Pillowblaster
 
 Sprites (Ace's stuff):
 - Each mod has its own separate credits file. Check it.
 
 Sprites (Monsters):
-
 - Baron of hell: Dunno, but I've seen it used in a lot of places.
 - Demon: Eriance, IIRC.
 - Imp: Eriance
