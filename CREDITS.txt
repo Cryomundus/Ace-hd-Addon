@@ -4,7 +4,7 @@
 Sprites:
 - Player sprite I dug up from some skin pack I downloaded some five years ago. No idea where it's from. No credits in the skin pack from what I see.
 - Chainsaw: /vr/ anon (that's what Zik's credits say)
-- SMG: DoomNukem, silentzora. Reflex sight by a1337spy.
+- SMG: DoomNukem, silentzora. Reshaded by Mor'ladim.
 - Pistol: Freedoom Team, edited by ChopBlock223.
 - Revolver: From Hideous Destructor, recolored by I.S.G.
 - Hunter: Originally from Doom64, edited by osjclatchford. Got it from the Spriting Carnival.
