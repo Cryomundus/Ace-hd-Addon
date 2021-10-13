@@ -22,6 +22,7 @@ Sprites:
 - 7mm Box, .50 OMG box, .355 Box, 9mm Box, Rocket Box, Shellbox, NV Goggles: DoomNukem/PillowBlaster
 - Radsuit: Freedoom
 - Battery: id Software, reshaded by Pillowblaster
+- Bunch of projectles and effects I took from Unfamiliar Ep. III: Chief Smokey. Go check out the project. It's goooooood. https://forum.zdoom.org/viewtopic.php?f=42&t=67077
 
 Sprites (Ace's stuff):
 - Each mod has its own separate credits file. Check it.
