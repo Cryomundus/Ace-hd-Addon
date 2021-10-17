@@ -30,6 +30,7 @@ class SCWraith : HDSkin
 	Default
 	{
 		HDSkin.Mug "WRT";
+		HDSkin.TauntSound "Player/Wraith/Taunt";
 	}
 	
 	States

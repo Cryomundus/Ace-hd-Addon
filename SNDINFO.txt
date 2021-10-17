@@ -184,6 +184,24 @@ $random misc/secret
 	misc/secret2
 }
 
+// WRAITH
+Player/Wraith/Taunt1 WRTTNT1
+Player/Wraith/Taunt2 WRTTNT2
+Player/Wraith/Taunt3 WRTTNT3
+Player/Wraith/Taunt4 WRTTNT4
+Player/Wraith/Taunt5 WRTTNT5
+Player/Wraith/Taunt6 WRTTNT6
+
+$random Player/Wraith/Taunt
+{
+	Player/Wraith/Taunt1
+	Player/Wraith/Taunt2
+	Player/Wraith/Taunt3
+	Player/Wraith/Taunt4
+	Player/Wraith/Taunt5
+	Player/Wraith/Taunt6
+}
+
 // SOLOMON
 Player/Solomon/Death SOLODETH
 Player/Solomon/Pain SOLOPAIN
