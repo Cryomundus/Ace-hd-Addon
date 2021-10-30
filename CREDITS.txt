@@ -13,7 +13,7 @@ Sprites:
 - Vulcanette: Eriance, Snarboo, Uboa, Midway Studios, Mike12 (credits taken from ZikShadow's HD addon which this one is based on)
 - Blooper: Sprite by Sonik.O.Fan, edited by a1337spy to match the old one.
 - Rocket Launcher: Demon Eclipse, Sergeant_Mark_IV
-- Thunder Buster: BouncyTEM? That's what Zik's credits say.
+- Thunder Buster: Doom Eternal, sprited by Sonik.o.fan.
 - Liberator: DoomNukem. Bullpup edits by ExUmbra. Reshade by HyperUltra64.
 - Boss Rifle: No idea. Definitely took it from the Spriting Carnival if I recall correctly. Was a while ago.
 - BFG: No idea. It's the BFG10K from the Doom movie. Has been around since mankind first discovered fire. Edited by Sonik.O.Fan.
