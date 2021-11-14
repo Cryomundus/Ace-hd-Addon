@@ -34,3 +34,23 @@ decalgroup BloodSplat
 	BloodSplat002 6
 	BloodSplat003 6
 }
+
+decal BloodSmear1
+{
+	pic BSPLNEW4
+	x-scale 0.4
+	y-scale 0.4
+	shade "65 00 00"
+	randomflipx
+	animator BloodSmearer
+}
+
+decal BloodSmear2
+{
+	pic BSPLNEW5
+	x-scale 0.4
+	y-scale 0.4
+	randomflipx
+	shade "65 00 00"
+	animator BloodSmearer
+}
