@@ -1,38 +1,11 @@
-decal BloodSplat001
+decal BloodSplat
 {
 	pic BSPLNEW
 	shade "65 00 00"
-	x-scale 0.35
-	y-scale 0.35
+	x-scale 0.70
+	y-scale 0.70
 	randomflipx
 	randomflipy
-}
-
-decal BloodSplat002
-{
-	pic BSPLNEW2
-	shade "65 00 00"
-	x-scale 0.35
-	y-scale 0.35
-	randomflipx
-	randomflipy
-}
-
-decal BloodSplat003
-{
-	pic BSPLNEW3
-	shade "65 00 00"
-	x-scale 0.35
-	y-scale 0.35
-	randomflipx
-	randomflipy
-}
-
-decalgroup BloodSplat
-{
-	BloodSplat001 6
-	BloodSplat002 6
-	BloodSplat003 6
 }
 
 decal BloodSmear1
