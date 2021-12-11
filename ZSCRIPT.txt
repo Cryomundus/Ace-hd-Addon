@@ -52,7 +52,7 @@ class Solomon : HDSkin
 		HDSkin.SoundClass "Solomon";
 		HDSkin.Mug "LCH";
 		BloodColor "5D2395";
-		Scale 0.8;
+		Scale 0.84;
 	}
 	
 	States
