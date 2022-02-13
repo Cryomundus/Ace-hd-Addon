@@ -9,6 +9,7 @@
 - One female mugshot
 - One skeleton wizard mugshot
 - Female sounds
+- Font
 
 ### Mod support
 ---
