@@ -63,4 +63,9 @@ Graphic "LIBSITE", 52, 39
 	Patch "DEFRIFLE", 0, 0
 }
 
+Graphic "HAMRSITE", 52, 39
+{
+	Patch "DEFRIFLE", 0, 0
+}
+
 // End of texture definitions
